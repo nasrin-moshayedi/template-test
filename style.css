@@ -5,6 +5,26 @@
  body {
     margin: 0;
     min-height: 100vh;
-    background-color: dimgray;
     color: white;
+ }
+
+ a {
+    display: block;
+    font-size: 24px;
+    color: #066869;
+    padding: 8px 16px!important;
+    border-right: 2px solid #2fcaff;
+    /* margin: 8px 0px; */
+ }
+
+ .main-link {
+    display: flex;
+    margin: 8px 16px;
+    border: 2px solid #2fcaff;
+    border-right: 0;
+    width: fit-content;
+ }
+
+ h1 {
+    color: black;
  }
